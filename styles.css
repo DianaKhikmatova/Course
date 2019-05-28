@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+ul li {
+    list-style-type: none;
+}
+body {
+    color: #212F3C;
+    background-color: #f2f3f4;
+    font-family: 'Roboto';
+}
+.bg-container {
+    width: 100%;
+    height: 300px;
+    background: url('bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+
+/*navbar*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.bg-light {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    color: #fff;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-family: 'Quicksand';
+    font-size: 26px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-nav .nav-link:focus {
+    font-weight: 200;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+.navbar-toggler-icon .navbar-toggler-icon {
+    color: #fff;
+} 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*search*/
+    .main-search {
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.input-city {
+    width: 30%;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.input-search {
+    width: 66%;
+    margin-left: -1px;
+}
+.input-search-button {
+    width: 4%;
+    margin-left: -1px;
+}
+.btn-outline-secondary {
+    border-radius: 0;
+    border-color: #d6dbdf;
+    color: #2E4053;
+}
+.form-control {
+    border-radius: 0;
+}
+.main-input {
+    height: 50px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: #d6dbdf;
+}
+secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle, 
+secondary:not(:disabled):not(.disabled).hover, .btn-outline-secondary:not(:disabled):not(.disabled):hover,
+secondary:not(:disabled):not(.disabled).focus, .btn-outline-secondary:not(:disabled):not(.disabled):focus {
+    color: #fff;
+    background-color: #1f618d;
+    border-color: #1f618d;
+}
+
+ .search-row {
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #d6dbdf;
+    border-top: 1px solid #d6dbdf;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.search-row p {
+    font-size: 18px;
+    font-weight:600; 
+    margin-top: 12px;
+}
+/*checkboxes*/
+
+.checkbox-group-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.form-group {
+    margin-top: -10px;
+}
+
+/*search-item*/
+.events-result-item {
+    flex-wrap: wrap;
+    display: flex;
+    background: #fff;
+    margin-bottom: 20px;
+    outline: 1px solid rgba(214, 219, 223, 0.7);
+}
+.event-img {
+    display: flex;
+    display: inline-block;
+    width: 30%;
+    background: url('c1.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.event-content {
+    display: flex;
+    display: inline-block;
+    width: 70%;
+    padding: 30px;
+}
+.title-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2E4053;
+}
+.title-right {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+}
+.div-title {
+    margin-bottom: 5px;
+}
+.info-item {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.info-item span {
+    display: inline-block;
+    margin-right: 10px;
+}
+.info-label {
+    font-weight: 600;
+}
+.type {
+    margin-bottom: 5px;
+    color: #85929e;
+}
+.description {
+    margin: 15px 0;
+}
+.form-check-input {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.info-label.agenda {
+    margin: 10px 0 0;
+}
+.button-right {
+    float: right;
+    margin-left: 15px;
+}
+.primary-button, .secondary-button {
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+.primary-button {
+    background-color: #1f618d;
+    color: #fff;
+}
+.primary-button:hover {
+    background-color: #2E86C1;
+}
+.secondary-button:hover {
+    background-color: #E5E7E9;
+}
+.back {
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto' !important;
+    color: #1f618d;
+    margin-bottom: 20px;
+}
+.link {
+    color: #2E86C1;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.link:hover {
+    color: #2E86C1;
+}
+.v-space {
+    height: 90px;
+}
