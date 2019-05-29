@@ -251,6 +251,36 @@ secondary:not(:disabled):not(.disabled).focus, .btn-outline-secondary:not(:disab
     margin-bottom: 15px;
 }
 
+/*admin*/
 .admin-title {
     font-size: 26px;
+}
+
+/*authorization*/
+.authorization-background {
+    height: 100vh;
+    background: url('bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+.app-name {
+    padding: 15px;
+    font-family: 'Quicksand';
+    font-size: 26px;
+    color: #fff;
+}
+.authorization-container {
+    margin: 150px auto 0;
+    width: 460px;
+    padding: 30px 30px 70px;
+    background: #fff;
+    outline: 1px solid rgba(214, 219, 223, 0.7);
+}
+.black-cover {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text-center {
+    text-align: center;
 }
