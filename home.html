@@ -24,17 +24,46 @@
     <title>Home</title>
     <style>
 
-    </style>
+</style>
+
   </head>
 
   
   <body>
+  
+    <!-- pop up begining --> 
+    <div class="black-cover pop-up" id="black-cover">
+      <div class="pop-up-container">
+        <p class="admin-title text-center">Підписатися на категорії</p>
+        <div class="checkbox-group-pop-up">
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="subscription-conferences-checkbox">
+            <label class="form-check-label" for="subscription-conferences-checkbox">Конференції</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="subscription-seminars-checkbox">
+            <label class="form-check-label" for="subscription-seminars-checkbox">Семінари</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="subscription-webinars-checkbox">
+            <label class="form-check-label" for="subscription-webinars-checkbox">Вебінари</label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="subscription-trainings-checkbox">
+            <label class="form-check-label" for="subscription-trainings-checkbox">Тренінги</label>
+          </div>
+        </div>
+        <button class="primary-button button-right" id="subscribe-btn" >Зберегти зміни</button>
+        <button class="secondary-button button-right" id="close-pop-up-btn" >Закрити</button>
+      </div>
+    </div>
+    <!-- pop up end -->
 
     <div class="bg-container">
       <div class="container">
         <div class="main-search">
           <div class="row">
-
+            
             <select class="form-control main-input input-city" id="exampleFormControlSelect1">
               <option>Харків</option>
               <option>2</option>
@@ -91,72 +120,72 @@
           <div class="categories">
             <p class="checkbox-group-title">Категорії</p>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Конференції</label>
+              <input type="checkbox" class="form-check-input" id="conferences-checkbox">
+              <label class="form-check-label" for="conferences-checkbox">Конференції</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Семінари</label>
+              <input type="checkbox" class="form-check-input" id="seminars-checkbox">
+              <label class="form-check-label" for="seminars-checkbox">Семінари</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Вебінари</label>
+              <input type="checkbox" class="form-check-input" id="webinars-checkbox">
+              <label class="form-check-label" for="webinars-checkbox">Вебінари</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Тренінги</label>
+              <input type="checkbox" class="form-check-input" id="trainings-checkbox">
+              <label class="form-check-label" for="trainings-checkbox">Тренінги</label>
             </div>
-            <p class="link">Підписатися</p>
+            <p class="link" id="subscribe-link">Підписатися</p>
           </div>
           <div class="time">
              <p class="checkbox-group-title">Місяці</p>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Червень</label>
+              <input type="checkbox" class="form-check-input" id="june-checkbox">
+              <label class="form-check-label" for="june-checkbox">Червень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Липень</label>
+              <input type="checkbox" class="form-check-input" id="july-checkbox">
+              <label class="form-check-label" for="july-checkbox">Липень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Серпень</label>
+              <input type="checkbox" class="form-check-input" id="august-checkbox">
+              <label class="form-check-label" for="august-checkbox">Серпень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Вересень</label>
+              <input type="checkbox" class="form-check-input" id="september-checkbox">
+              <label class="form-check-label" for="september-checkbox">Вересень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Жовтень</label>
+              <input type="checkbox" class="form-check-input" id="october-checkbox">
+              <label class="form-check-label" for="october-checkbox">Жовтень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Листопад</label>
+              <input type="checkbox" class="form-check-input" id="november-checkbox">
+              <label class="form-check-label" for="november-checkbox">Листопад</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Грудень</label>
+              <input type="checkbox" class="form-check-input" id="december-checkbox">
+              <label class="form-check-label" for="december-checkbox">Грудень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Січень</label>
+              <input type="checkbox" class="form-check-input" id="january-checkbox">
+              <label class="form-check-label" for="january-checkbox">Січень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Лютий</label>
+              <input type="checkbox" class="form-check-input" id="fabruary-checkbox">
+              <label class="form-check-label" for="fabruary">Лютий</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Березень</label>
+              <input type="checkbox" class="form-check-input" id="march-checkbox">
+              <label class="form-check-label" for="march-checkbox">Березень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Квітень</label>
+              <input type="checkbox" class="form-check-input" id="april-checkbox">
+              <label class="form-check-label" for="april-checkbox">Квітень</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Травень</label>
+              <input type="checkbox" class="form-check-input" id="may-checkbox">
+              <label class="form-check-label" for="may-checkbox">Травень</label>
             </div>
           </div>
         </div> 
@@ -204,6 +233,19 @@
       </div>
     </div>
  
+      <script>
+        document.getElementById("close-pop-up-btn").addEventListener("click", function() {
+          document.getElementById("black-cover").style.display = "none";
+        }, false);
+
+        document.getElementById("subscribe-btn").addEventListener("click", function() {
+          document.getElementById("black-cover").style.display = "none";
+        }, false);
+
+        document.getElementById("subscribe-link").addEventListener("click", function() {
+          document.getElementById("black-cover").style.display = "block";
+        }, false);
+      </script>
 
 
     <!-- Optional JavaScript -->

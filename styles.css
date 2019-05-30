@@ -10,6 +10,7 @@ body {
     color: #212F3C;
     background-color: #f2f3f4;
     font-family: 'Roboto';
+    position: relative;
 }
 
 
@@ -256,7 +257,7 @@ secondary:not(:disabled):not(.disabled).focus, .btn-outline-secondary:not(:disab
     font-size: 26px;
 }
 
-/*authorization*/
+/*authorization & pop up*/
 .authorization-background {
     height: 100vh;
     background: url('bg.jpg') no-repeat;
@@ -270,7 +271,7 @@ secondary:not(:disabled):not(.disabled).focus, .btn-outline-secondary:not(:disab
     font-size: 26px;
     color: #fff;
 }
-.authorization-container {
+.authorization-container, .pop-up-container {
     margin: 150px auto 0;
     width: 460px;
     padding: 30px 30px 70px;
@@ -283,4 +284,16 @@ secondary:not(:disabled):not(.disabled).focus, .btn-outline-secondary:not(:disab
 }
 .text-center {
     text-align: center;
+}
+.black-cover.pop-up {
+    display: none; 
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+} 
+.checkbox-group-pop-up {
+    margin: 30px 0 10px;
 }
